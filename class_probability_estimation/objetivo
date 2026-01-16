@@ -1,0 +1,9 @@
+O objetivo desse projeto é:
+
+Prever Cliente_Fiel (Sim/Não) baseado em:
+
+    Categoria + Preço + Quantidade + Região
+
+Prever Alta_Satisfação (≥4 vs ≤3) baseado em:
+
+    Categoria + Cliente_Fiel + Região

@@ -1,0 +1,8 @@
+# Criar um ambiente virtual chamado 'venv'
+python3 -m venv venv
+# Ativar o ambiente virtual
+source venv/bin/activate
+
+Instalar bibliotecas
+pip install -U scikit-learn
+
