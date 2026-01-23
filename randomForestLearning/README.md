@@ -1,34 +1,33 @@
-🌲 Random Forest Classifier - Tutorial Prático
+🌲 Random Forest Classifier - Practical Tutorial
 
-Projeto de estudo que implementa um classificador Random Forest utilizando o dataset Iris do scikit-learn, seguindo o tutorial do GeeksforGeeks.
+A study project that implements a Random Forest Classifier using the Iris dataset from scikit-learn, following the GeeksforGeeks tutorial.
+🎯 Learning Objectives
 
-🎯 Objetivos de Aprendizado
+This project was developed to practice and consolidate knowledge in:
 
-Este projeto foi desenvolvido para praticar e consolidar conhecimentos em:
+    Data preprocessing with pandas
 
-    Pré-processamento de dados com pandas
+    Dataset splitting into training, testing, and validation sets
 
-    Divisão de datasets em treino, teste e validação
+    Data normalization using StandardScaler()
 
-    Normalização de dados utilizando StandardScaler()
+    Implementation of the Random Forest algorithm with scikit-learn
 
-    Implementação do algoritmo Random Forest com scikit-learn
+    Analysis of evaluation metrics (accuracy, confusion matrix, classification report)
 
-    Análise de métricas de avaliação (acurácia, matriz de confusão, relatório de classificação)
-
-    Revisão de conceitos estatísticos fundamentais para ciência de dados
+    Review of fundamental statistical concepts for data science
 
 📊 Dataset
 
-    Nome: Iris Dataset
+    Name: Iris Dataset
 
-    Origem: scikit-learn (built-in)
+    Source: scikit-learn (built-in)
 
-    Características: 150 amostras, 4 features (comprimento/largura de sépala e pétala)
+    Characteristics: 150 samples, 4 features (sepal length/width, petal length/width)
 
     Classes: 3 (Iris-setosa, Iris-versicolor, Iris-virginica)
 
-🛠 Tecnologias Utilizadas
+🛠 Technologies Used
 
     Python 3.x
 
@@ -38,51 +37,53 @@ Este projeto foi desenvolvido para praticar e consolidar conhecimentos em:
 
     scikit-learn
 
-    Matplotlib / Seaborn (para visualização)
+    Matplotlib / Seaborn (for visualization)
 
     Jupyter Notebook
 
-📈 Métricas Avaliadas
+📈 Metrics Evaluated
 
-    Acurácia do modelo
+    Model accuracy
 
-    Matriz de confusão
+    Confusion matrix
 
-    Relatório de classificação (precisão, recall, f1-score)
+    Classification report (precision, recall, f1-score)
 
-🧠 Conceitos Revisados
+🧠 Concepts Reviewed
+Random Forest
 
-    Random Forest
+    Ensemble Learning (bagging)
 
-        Ensemble Learning (bagging)
+    Feature importance
 
-        Importância de features
+    Hyperparameters (n_estimators, max_depth, etc.)
 
-        Hiperparâmetros (n_estimators, max_depth, etc.)
+Applied Statistics
 
-    Estatística Aplicada
+    Normal distribution
 
-        Distribuição normal
+    Normalization vs. Standardization
 
-        Normalização vs. Padronização
+    Cross-validation
 
-        Validação cruzada
+Machine Learning Workflow
 
-    Fluxo de Machine Learning
+    Data loading and exploration
 
-        Carregamento e exploração de dados
+    Preprocessing
 
-        Pré-processamento
+    Training and validation
 
-        Treinamento e validação
+    Result evaluation
 
-        Avaliação de resultados
+📚 References
 
-📚 Referências
+    Base tutorial: GeeksforGeeks - Random Forest Classifier
 
-    Tutorial base: GeeksforGeeks - Random Forest Classifier
-    Disponível em: https://www.geeksforgeeks.org/dsa/random-forest-classifier-using-scikit-learn/ 
-
-    Documentação scikit-learn: RandomForestClassifier
+    scikit-learn documentation: RandomForestClassifier
 
     Dataset: Iris Dataset Documentation
+
+Developed as part of the learning journey in Data Science and Machine Learning.
+"Continuous learning through practice."
+
