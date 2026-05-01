@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Obtendo os dados do sklearn
 iris = load_iris()
-df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+df = pd.DataFrame(data = iris.data, columns = iris.feature_names)
 df['target'] = iris.target
 
 # ":" pega todas as linhas no eixo x. ":-1" pega todas as colunas, exceto a última, pois Python é exclusivo no limite direito
@@ -31,7 +31,7 @@ X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
 # 100 arvores de decisao
-classifier = RandomForestClassifier(n_estimators=100, random_state=42)
+classifier = RandomForestClassifier(n_estimators=100, criterion= 'entropy', random_state=42, min_samples_leaf=10)
 classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 
@@ -44,7 +44,7 @@ confusion_matrix = confusion_matrix(y_test, y_pred)
 
 plt.figure(figsize=(8, 6))
 sns.heatmap(confusion_matrix, annot=True, fmt='g', cmap='Blues', cbar=False,
-            xticklabels=iris.target_names, yticklabels=iris.target_names)
+            xticklabels = iris.target_names, yticklabels = iris.target_names)
 
 plt.title('Confusion Matrix Heatmap')
 plt.xlabel('Predicted Labels')
